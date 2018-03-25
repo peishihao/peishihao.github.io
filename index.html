@@ -1,27 +1,46 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>啊哈</title>
+	<title>方格布局</title>
 	<style type="text/css">
-		 *{
-		 	margin: 0px;
-		 	padding: 0px;
-		 }
-		 .a,.b{
-		 	text-align: center; 
-		 	margin-top: 20px;
-		 }
-
-		 .b{ 
-		 	color: blue; 
-		 }   
+		#abc{
+			width: 1002px;ba
+			background: blue;
+		}
+		#a{
+			height: 120px;
+			background: gray;
+		}
+		#b{
+			height: 600px;
+			background: green;
+		}
+		#aa{
+			width: 700px;
+			height: 600px;
+			background: pink;
+			float: left;
+		}
+		#bb{
+			width: 302px;
+			height: 600px;
+			background: orange;
+			float: right;
+		}
+		#c{
+			height: 120px;
+			background: gray;
+		}
 	</style>
 </head>
 <body>
-	<div class="a"> 
-		<img src="qyx.jpg" height="300"/> 
-	</div>  
-	<div class="b">
-		<span>你好啊，哈哈</span>
-	</div>
+	<div id="abc">
+		<div id="a"></div>
+		<div id="b">			
+			<div id="aa"></div>
+			<div id="bb"></div>
+		</div>
+		<div id="c"></div>
+	</div> 
 </body>
 </html>
