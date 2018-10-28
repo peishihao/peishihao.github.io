@@ -1,46 +1,77 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>方格布局</title>
-	<style type="text/css">
-		#abc{
-			width: 1002px;ba
-			background: blue;
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我的主页</title>
+<style>
+	#p{
+		width:600px;
+		height:800px;
+		background-color: red;
+	}
+	dt{
+		font-weight:bold;
+		font-size:24px;
 		}
-		#a{
-			height: 120px;
-			background: gray;
+	#headed{
+		width:600px;
+		background-color:green;
+		height: 200px;
 		}
-		#b{
-			height: 600px;
-			background: green;
+	#bodyed{
+		width:600px;
+		background-color:red;
+		height: 500px;
 		}
-		#aa{
-			width: 700px;
-			height: 600px;
-			background: pink;
-			float: left;
+	#footed{
+		width:600px;
+	 	background-color: #0C0;
+		height: 100px;
 		}
-		#bb{
-			width: 302px;
-			height: 600px;
-			background: orange;
-			float: right;
+	p{
+		text-indent:2em;
 		}
-		#c{
-			height: 120px;
-			background: gray;
-		}
-	</style>
+</style>
 </head>
 <body>
-	<div id="abc">
-		<div id="a"></div>
-		<div id="b">			
-			<div id="aa"></div>
-			<div id="bb"></div>
-		</div>
-		<div id="c"></div>
-	</div> 
+<div id="p">
+    	<div id="headed">
+        	<h1 align="center">我的资料</h1>
+         	<dl>
+            	<dt>裴世豪</dt>
+              	<ul>
+                	<li>birthdate ：2002 05 23</li>
+                    <li>stature   ：175cm</li>
+                    <li>weight    ：65kg</li>
+                    <li>I like    ：basketball</li>
+                </ui>
+            </dl>
+        </div>
+        <div id="bodyed">
+        	<h3>self-introduction:</h3>
+        	<p>I am peishihao,	I am 16 years old.</p>
+            <p>I am a student. Now I am a sophomore in high school.</p>
+            <p>Professional skills are developed because of poor academic performance,study computer science. I like computer very much.Out of the computer's greatest interest is playing basketball.I often play basketball in my spare time,it's not very technical.</p>
+            <p>I have a regular routine.</p>
+            <p>Form the following：</p>
+            <table border="1" bgcolor="#000000" width="500px" height="100px" align="center">
+            <caption>TIMETABLE</caption>
+            	<tr bgcolor="#FFFFFF">
+                	<th align="center">TIME</th>
+                    <th>AM</td>
+                    <th>PM</td>
+                    <th>EVENING</td>
+                </tr>
+                <tr bgcolor="#FFFFFF">
+                	<th>JOURNEY</th>
+                    <td align="center">learning computer</td>
+                    <td align="center">play basketball</td>
+                    <td align="center">read a book</td>
+                </tr>
+            </table>
+            
+        </div>
+        <div id="footed">3</div>
+    </div>
 </body>
 </html>
